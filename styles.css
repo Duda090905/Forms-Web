@@ -1,14 +1,17 @@
-*{
+html,body{
     padding:0;
     margin: 0;
     box-sizing: border-box;
+    
     }
     
     body{
     
-        font-family: 'Outfit';
-        background: linear-gradient(#3bf657,#99eeb4)
-    
+        /* Definindo a imagem de fundo com gradiente */
+    background-image: url('imagens/fundo.jpg');
+    background-size: cover; /* Faz com que a imagem cubra toda a tela */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
     }
     
     .contato-conteiner{
@@ -47,6 +50,7 @@
         
         .contato-inputs {
         
+        font-family:  sans-serif;
         width: 400px;
         height: 50px;
         border: none;
@@ -55,6 +59,7 @@
         font-weight: 50px;
         color: #666;
         border-radius: 50px;
+        font-size: medium;
         
         }
         .contato-esquerdo textarea {
@@ -63,7 +68,7 @@
             height: 140px;
             padding-top: 15px;
             border-radius: 20px;
-        
+            
         }
         
         .contato-inputs:focus {
