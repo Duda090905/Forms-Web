@@ -1,0 +1,93 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+    
+    body{
+    
+        font-family: 'Outfit';
+        background: linear-gradient(#3bf657,#99eeb4)
+    
+    }
+    
+    .contato-conteiner{
+    
+    height:100vh;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    }
+    
+    .contato-esquerdo{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+    }
+    
+    .contato-esquerdo-titulo h2 {
+    
+        font-weight: 600;
+        color: #000000;
+        font-size: 35px;
+        margin-bottom: 5px;
+        }
+        
+        .contato-esquerdo-titulo hr {
+        
+        border:none;
+        width: 120px;
+        height: 5px;
+        background-color: #800e8d;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        }
+        
+        .contato-inputs {
+        
+        width: 400px;
+        height: 50px;
+        border: none;
+        outline: none;
+        padding-left: 25px;
+        font-weight: 50px;
+        color: #666;
+        border-radius: 50px;
+        
+        }
+        .contato-esquerdo textarea {
+    
+    
+            height: 140px;
+            padding-top: 15px;
+            border-radius: 20px;
+        
+        }
+        
+        .contato-inputs:focus {
+        
+        border: 2px solid #ff994f;
+        
+        }
+        
+        .contato-inputs::placeholder {
+        
+        color: #a9a9a9;
+        
+        }
+        
+        .contato-esquerdo button {
+        
+        display: flex;
+        align-items: center;
+        padding: 15px 30px;
+        font-size: 16px;
+        color: #fff;
+        gap: 10px;
+        border: none;
+        border-radius: 50px;
+        background: linear-gradient(270deg,#b16fb8,#800e8d);
+        
+        }
