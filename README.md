@@ -15,4 +15,34 @@ Imagens/ -> Pasta que contém o fundo de tela utilizado no background.
 
 Execução do Formulário:
 
-- o primeiro passo é clonar este repositório
+1 - Clone este repositório:
+
+ git clone https://github.com/Duda090905/Forms-Web.git
+
+2 - Abra o arquivo index.html e execute-o para visualizar a página
+
+Detalhes do formulário criado:
+
+Composto por 3 campos, sendo eles:
+
+- Nome: Campo de texto onde o usuário digita seu nome.
+
+- Email: Campo de texto onde o usuário digita seu email
+
+- Mensagem: Área de texto para que o usuário insira sua mensagem.
+
+Ao clicar no botão "Enviar", o formulário envia os dados para a API Web3Forms.
+
+Funcionalidades: 
+
+- Preenchimento obrigatório de todos os campos.
+- Layout centralizado e responsivo, se ajustando de acordo com seu tipo de tela.
+- Estilização customizada para melhor experiência do usuário.
+
+Melhorias Futuras:
+- Adicionar mensagens de sucesso ou erro após o envio do formulário.
+- Implementar validação avançada usando JavaScript para melhorar a experiência do usuário.
+  
+ Licença:
+ 
+Essa atividade é de uso acadêmico e não possui licença específica.
